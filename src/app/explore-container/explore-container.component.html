@@ -1,4 +1,12 @@
 <div id="container">
-  <strong>{{ name }}</strong>
-  <p>Explore <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-</div>
+  <ion-button expand="block" (click)="setOpen(true)">Show Toasts</ion-button>
+
+  <ion-toast
+  [isOpen]="isToastOpen"
+  message="I am a toast over the header"
+  position="top"
+></ion-toast>
+  <ion-toast
+  [isOpen]="isToastOpen"
+  message="I am a toast over tab buttons"
+></ion-toast></div>
