@@ -1,0 +1,7 @@
+{
+  "name": "fw7-ion-toast-position-issue",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
